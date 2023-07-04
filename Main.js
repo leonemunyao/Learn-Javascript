@@ -59,3 +59,12 @@ const FCC = "freeCodeCamp"; // Change this line
 let fact = "is cool!"; // Change this line
 fact = "is awesome!";
 console.log(FCC, fact); // Change this line
+
+
+// Increment a Number with JavaScript
+let myVar = 87;
+myVar++;
+
+// Decrement
+let myVar = 11;
+myVar--;
