@@ -45,3 +45,17 @@ properCamelCase = "A String";
 titleCaseOver = 9000;
 
 
+// Explore Differences Between the var and let Keywords
+
+let chickName = "Jack";
+let catSound = "ourw!";
+
+// Declare a Read-Only Variable with the const Keyword
+//You should always name variables you don't want to reassign using the const keyword.
+//It is common for developers to use uppercase variable identifiers for immutable values 
+//and lowercase or camelCase for mutable values (objects and arrays). 
+
+const FCC = "freeCodeCamp"; // Change this line
+let fact = "is cool!"; // Change this line
+fact = "is awesome!";
+console.log(FCC, fact); // Change this line
