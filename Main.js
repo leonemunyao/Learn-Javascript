@@ -55,10 +55,10 @@ let catSound = "ourw!";
 //It is common for developers to use uppercase variable identifiers for immutable values 
 //and lowercase or camelCase for mutable values (objects and arrays). 
 
-const FCC = "freeCodeCamp"; // Change this line
-let fact = "is cool!"; // Change this line
+const FCC = "freeCodeCamp"; 
+let fact = "is cool!"; 
 fact = "is awesome!";
-console.log(FCC, fact); // Change this line
+console.log(FCC, fact); 
 
 
 // Increment a Number with JavaScript
@@ -70,12 +70,28 @@ let myVar = 11;
 myVar--;
 
 // Escaping Literal Quotes in Strings
-const myStr = "I am a \"double quoted\" string inside \"double quotes\""; // Change this line
+const myStr = "I am a \"double quoted\" string inside \"double quotes\""; 
 
 
 // Concatenating Strings with Plus Operator
 const myStrr = "This is the start." + " This is the end.";
 
 // Concatenating Strings with the Plus Equals Operator
+let myStrg = "This is the first sentence. ";
+myStrg += "This is the second sentence.";
 
+
+// Constructing Strings with Variables
+// Sometimes you will need to build a string. By using the concatenation operator (+), you can insert one or more variables into a string you're building.
+
+const myName = "Leon";
+const myStri = "My name is " + myName + "and I am well!";
+
+// Find the Length of a String
+// Note that the space character between is also counted.
+
+// Example Use the .length property to set lastNameLength to the number of characters in lastName.
+let lastNameLength = 0;
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
 
