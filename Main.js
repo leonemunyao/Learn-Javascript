@@ -72,3 +72,10 @@ myVar--;
 // Escaping Literal Quotes in Strings
 const myStr = "I am a \"double quoted\" string inside \"double quotes\""; // Change this line
 
+
+// Concatenating Strings with Plus Operator
+const myStrr = "This is the start." + " This is the end.";
+
+// Concatenating Strings with the Plus Equals Operator
+
+
