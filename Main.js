@@ -117,6 +117,10 @@ myName[0] = "Z";
 let myName = "Leon";
 myName = "Zeon";
 
+// Use Bracket Notation to Find the Nth Character in a String
+const lasttName = "Leondev";
+const thirdLetterOfLastName = lasttName[2];
+
 
 
 
