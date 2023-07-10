@@ -121,6 +121,9 @@ myName = "Zeon";
 const lasttName = "Leondev";
 const thirdLetterOfLastName = lasttName[2];
 
+// Word Blanks
+
+
 
 
 
