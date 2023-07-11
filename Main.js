@@ -122,6 +122,23 @@ const lasttName = "Leondev";
 const thirdLetterOfLastName = lasttName[2];
 
 // Word Blanks
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
+
+// Store Multiple Values in one Variable using JavaScript Arrays
+const myArray = ["Landcruiser V8", 2];
+
+// Nest one Array within Another Array
+const myCars = [["LandcruiserV8", 22], ["AudiRSQ8", 20]];
+
+// Access Array Data with Indexes
+const myArrayy = [50, 60, 70];
+console.log(myArray[0]);
+const myData = myArrayy[0];
 
 
 
