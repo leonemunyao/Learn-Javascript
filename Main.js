@@ -140,6 +140,11 @@ const myArrayy = [50, 60, 70];
 console.log(myArray[0]);
 const myData = myArrayy[0];
 
+// Modify Array Data With Indexes
+const myAArray = [18, 64, 99];
+
+myAArray[0] = 45;
+
 
 
 
