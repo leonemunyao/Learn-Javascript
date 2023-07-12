@@ -169,6 +169,19 @@ const myArraay = [
 
 const myDatta = myArraay[2][1];
 
+// Manipulate Arrays With push Method
+// .push() takes one or more parameters and "pushes" them onto the end of the array.
+
+const arr1 = [1, 2, 3];
+arr1.push(4);
+
+const arr2 = ["Stimpson", "J", "cat"];
+arr2.push(["happy", "joy"]);
+
+// arr1 now has the value [1, 2, 3, 4] and arr2 has the value ["Stimpson", "J", "cat", ["happy", "joy"]].
+
+const myArray1 = [["John", 23], ["cat", 2]];
+myArray1.push(["dog", 3]);
 
 
 
