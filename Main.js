@@ -183,6 +183,33 @@ arr2.push(["happy", "joy"]);
 const myArray1 = [["John", 23], ["cat", 2]];
 myArray1.push(["dog", 3]);
 
+// Manipulate Arrays With pop Method
+// .pop() is used to pop a value off of the end of an array. We can store this popped off value by assigning 
+// it to a variable. In other words, .pop() removes the last element from an array and returns that element.
+
+const threeArr = [1, 4, 6];
+const oneDown = threeArr.pop();
+console.log(oneDown);
+console.log(threeArr);
+
+// The first console.log will display the value 6, and the second will display the value [1, 4].
+
+const myArray2 = [["John", 23], ["cat", 2]];
+const removedFromMyArray2 = myArray2.pop();
+
+// Removes ["cat", 2] 
+
+// Manipulate Arrays With shift Method
+// We use the shift method to change the first element
+
+const ourArray = ["Stimpson", "J", ["cat"]];
+const removedFromOurArray = ourArray.shift();
+
+// Removes "Stimpson"
+
+const myArray3 = [["John", 23], ["dog", 3]];
+const removedFromMyArray3 = myArray3.shift();
+
 
 
 
