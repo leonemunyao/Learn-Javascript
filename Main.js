@@ -1,9 +1,8 @@
 // In computer science data is anything that the computer understands
 // We have to understand what we have differen data types like undefined...null.....boolean...string
 // symbol....number..bigit and object
-var myName;
-var myName = Leon;
-var myVar = 10;
+var myNamee = "Leon";
+var myVar3 = 10;
 
 
 // assinging variables
@@ -14,7 +13,7 @@ b = a;
 
 // Initializing Variables with the Assignment Operator
 
-var myVar = 0;
+var myVar1 = 0;
 var a = 9;
 
 // Declare String Variables
@@ -66,8 +65,8 @@ let myVar = 87;
 myVar++;
 
 // Decrement
-let myVar = 11;
-myVar--;
+let myVarr = 11;
+myVarr--;
 
 // Escaping Literal Quotes in Strings
 const myStr = "I am a \"double quoted\" string inside \"double quotes\""; 
@@ -84,16 +83,16 @@ myStrg += "This is the second sentence.";
 // Constructing Strings with Variables
 // Sometimes you will need to build a string. By using the concatenation operator (+), you can insert one or more variables into a string you're building.
 
-const myName = "Leon";
-const myStri = "My name is " + myName + "and I am well!";
+const myName1 = "Leon";
+const myStri = "My name is " + myName1 + "and I am well!";
 
 // Find the Length of a String
 // Note that the space character between is also counted.
 
 // Example Use the .length property to set lastNameLength to the number of characters in lastName.
 let lastNameLength = 0;
-const lastName = "Lovelace";
-lastNameLength = lastName.length;
+const lastName1 = "Lovelace";
+lastNameLength = lastName1.length;
 
 
 // Use Bracket Notation to Find the First Character in a String
@@ -108,14 +107,14 @@ firstLetterOfLastName = lastNamee[0];
 
 // For example, the following code will produce an error because the letter B in the string Bob cannot be changed to the letter J:
 
-let myName = "Leon";
-myName[0] = "Z";
+let myName2 = "Leon";
+myName2[0] = "Z";
 
 // Note that this does not mean that myStr could not be re-assigned.
 //  The only way to change myStr would be to assign it with a new value, like this:
 
-let myName = "Leon";
-myName = "Zeon";
+let myName3 = "Leon";
+myName3 = "Zeon";
 
 // Use Bracket Notation to Find the Nth Character in a String
 const lasttName = "Leondev";
@@ -226,8 +225,8 @@ myArray4.unshift(["Paul", 35]);
 const myList = [["Biscuit", 50], ["Soda", 40], ["Calculators", 40],
 ["Laptops", 500], ["Pens", 33]];
 
-
-
-
-
+// Javascript can divided into reusable parts called functions
+function functionName() {
+  console.log("Understanding Javascript is my dream")
+}
 
