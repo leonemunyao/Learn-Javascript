@@ -230,3 +230,5 @@ function functionName() {
   console.log("Understanding Javascript is my dream")
 }
 
+functionName();
+
