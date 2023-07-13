@@ -211,6 +211,20 @@ const myArray3 = [["John", 23], ["dog", 3]];
 const removedFromMyArray3 = myArray3.shift();
 
 
+// Using the .unshift() method to add an element in front of the
+// array
+
+const ourArray4 = ["Stimpson", "J", "cat"];
+ourArray4.shift();
+ourArray4.unshift("Happy");
+
+const myArray4 = [["John", 23], ["dog", 3]];
+myArray4.shift();
+myArray4.unshift(["Paul", 35]);
+
+// Creating a shopping list
+const myList = [["Biscuit", 50], ["Soda", 40], ["Calculators", 40],
+["Laptops", 500], ["Pens", 33]];
 
 
 
