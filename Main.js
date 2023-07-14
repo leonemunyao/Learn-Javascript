@@ -299,3 +299,15 @@ function myTest() {
 }
 
 myTest();
+
+// Global vs. Local Scope in Functions
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  const outerWear = "sweater";
+  return outerWear;
+}
+
+myOutfit();
+
+// 
