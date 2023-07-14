@@ -232,3 +232,24 @@ function functionName() {
 
 functionName();
 
+// Passing values to functions. The actual values that are input or passed 
+// into a function when it is called are known as arguments.
+ 
+function functionWithhArgs(a, b) {
+  console.log( a + b );
+}
+
+functionWithhArgs(10, 20);
+
+function functionWithArrgs(a, b) {
+  console.log( a + b );
+}
+
+functionWithArrgs(1, 2);
+
+function functionWithArgss(a, b) {
+  console.log( a + b )
+}
+
+functionWithArgss(9, 7);
+
