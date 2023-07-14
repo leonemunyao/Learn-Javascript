@@ -275,12 +275,8 @@ const value = timesFive(10);
 const myGlobal = 10; 
 
 function fun1() {
-  // Assign 5 to oopsGlobal here
   oopsGlobal = 5;
-
 }
-
-// Only change code above this line
 
 function fun2() {
   let output = "";
@@ -292,3 +288,14 @@ function fun2() {
   }
   console.log(output);
 }
+
+// Local scope and functions 
+// Variables which are declared within a function as well as the function parameters have a local scope ...That means they are only
+// visible within a function.
+
+function myTest() {
+  const loc = "Javascript";
+  console.log(loc);
+}
+
+myTest();
