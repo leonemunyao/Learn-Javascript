@@ -253,3 +253,22 @@ function functionWithArgss(a, b) {
 
 functionWithArgss(9, 7);
 
+// Return a value from a function using return
+
+function plusThree(num) {
+  return num + 5;
+}
+
+const answer = plusThree(5);
+
+function timesFive(numeric) {
+  return numeric*5;
+}
+
+const value = timesFive(10);
+
+// Global Scope and Functions
+// In Javascript, scope refers to the visibility of variables. 
+// Variables which are declared without let or const are automatically created in the global scope. This means they can be 
+// seen everywhere in your javascript code.
+
