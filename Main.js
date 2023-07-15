@@ -306,8 +306,32 @@ const outerWear = "T-Shirt";
 function myOutfit() {
   const outerWear = "sweater";
   return outerWear;
+  console.log(outerWear);
 }
 
 myOutfit();
 
-// 
+// Understanding undefined value returned from a function
+let sum = 0;
+
+function addSum(num) {
+  sum = sum + num;
+  console.log(sum);
+}
+
+function addFive(num) {
+  sum = sum + num;
+  console.log(sum);
+}
+
+addSum(3);
+addFive(5);
+
+let summ = 5;
+
+function addFivee(num) {
+  summ = summ + num;
+  console.log(summ);
+}
+
+addFivee(5);
