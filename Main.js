@@ -335,3 +335,13 @@ function addFivee(num) {
 }
 
 addFivee(5);
+
+// Assigment with return value
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+  console.log(processArg)
+}
+
+processed = processArg(7);
