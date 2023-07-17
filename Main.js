@@ -404,4 +404,15 @@ inSide()
       console.log(err);
      })
 
+ async function n() {
+  try{
+    let x = await inSide()
+    console.log("Awaiting for something to happen");
+  } catch(err) {
+    console.log(err);
+  }
+ }   
+ 
+ n();
 
+    
