@@ -203,6 +203,7 @@ const removedFromMyArray2 = myArray2.pop();
 
 const ourArray = ["Stimpson", "J", ["cat"]];
 const removedFromOurArray = ourArray.shift();
+console.log(ourArray);
 
 // Removes "Stimpson"
 
@@ -345,3 +346,19 @@ function processArg(num) {
 }
 
 processed = processArg(7);
+
+// Stand in line
+// A queue is an abstract is an abstract data structure where all itmes are kepdt in order
+
+//  
+
+function nextInLine(arr, item) {
+  arr.push(item);
+  return arr.shift();
+}
+
+let testArr = [1, 2, 3, 4, 5];
+
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
