@@ -362,3 +362,18 @@ let testArr = [1, 2, 3, 4, 5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
+
+// Use Conditional Logic with If Statements
+function trueOrFalse(wasThatTrue) {
+
+   if (wasThatTrue) {
+       return "Yes, that was true";
+   }
+       return "No, that was false";
+
+}
+
+
+// 
+
+
