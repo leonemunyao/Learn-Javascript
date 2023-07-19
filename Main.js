@@ -412,11 +412,15 @@ function testNotEqual(val) {
 
 console.log(testNotEqual(10));
 
+// Comparison with the Strict Inequality Operator
+function testStrictNotEqual(val) {
+  if (val !== 17) {
+    return "Not Equal";
+  }
+  return "Equal";
+}
 
-
-
-
-
+console.log(testStrictNotEqual(10));
 
 
 
