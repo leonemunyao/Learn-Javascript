@@ -374,6 +374,63 @@ function trueOrFalse(wasThatTrue) {
 
 }
 
+// Comparison with the Equality Operator
+function equalityTest(myVal) {
+  if (myVal == 10){
+    return "Equal";
+  }
+  return "Not equal";
+}
+
+console.log(equalityTest(16));
+
+// Comparison with the Strict Equality Operator. returns false if the values 
+// are not of the same type.
+
+// Practicing comparing different values
+// The compareEquality function in the editor compares two values using the equality operator.
+//  Modify the function so that it returns the string Equal only when the values are strictly equal.
+
+
+function compareEquality(a, b) {
+  if (a === b) { 
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+console.log(compareEquality(10, "10"));
+
+// Comparison with the Inequality Operator
+
+function testNotEqual(val) {
+  if (val != 99) { 
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+console.log(testNotEqual(10));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Asynchronous Jabvascript
 
@@ -415,4 +472,8 @@ inSide()
  }   
  
  n();
-    
+
+
+
+
+
