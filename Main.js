@@ -486,8 +486,27 @@ function testLessOrEqual(val) {
 
 console.log(testLessOrEqual(10));
 
+// Comparisons with the Logical And Operator
+function Operator(num){
+  if (num > 5) {
+  if (num < 10) {
+    return "Yes";
+  }
+}
+return "No";
+}
+
+console.log(Operator(8));
 
 
+function logicalOpertor(nnum){
+  if (nnum > 5 && nnum < 10) {
+  return "Yes";
+}
+return "No";
+}
+
+console.log(logicalOpertor(15));
 
 
 
