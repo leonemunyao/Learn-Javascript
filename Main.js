@@ -595,8 +595,44 @@ function bar(x) {
   }
 }
 
-console.log(bar(0))  // returns less 
+console.log(bar(0));  // returns less than two
 
+function foo(x) {
+  if (x < 1) {
+    return "Less than one";
+  } else if (x < 2) {
+    return "Less than two";
+  } else {
+    return "Greater than or equal to two";
+  }
+}
+
+console.log(foo(0));  // returns less than one
+
+// Chaining If Else Statements
+
+function testSize(num) {
+   if (num < 5 ){
+     return "Tiny";
+   } else if( num < 10 ){
+     return "Small";
+   }
+   else if( num < 15 ){
+     return "Medium";
+   }
+   else if( num < 20 ){
+     return "Large";
+   }
+   else if( num >= 20 ) {
+     return "Huge";
+   }
+   else {
+     return "Change Me";
+   }
+  
+}
+
+console.log(testSize(7));
 
 
 
