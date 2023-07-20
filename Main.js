@@ -519,6 +519,47 @@ function testLogicalAnd(val) {
 console.log(testLogicalAnd(10));
 
 
+// Comparisons with the Logical Or Operator
+// The logical operator || returns true if either of the operands is true otherwise false.
+function logicalOr(num) {
+  if (num > 10 || num < 5) {
+    return "No";
+  }
+  return "Yes";
+} 
+
+console.log(logicalOr(6));
+
+function testLogicalOr(val) {
+
+  if (val < 10 || val > 20 ) {
+    return "Outside";
+  }
+  return "Inside";
+}
+
+console.log(testLogicalOr(15));
+
+// Introducing Else Statements
+function testElse(val) {
+  let result = "";
+
+  if (val > 5) {
+    result = "Bigger than 5";
+  }
+  else {
+    result = "5 or Smaller";
+  }
+
+  return result;
+}
+
+console.log(testElse(4));
+
+// Introducing Else If Statements
+
+
+
 
 
 
