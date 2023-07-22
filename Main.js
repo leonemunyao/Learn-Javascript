@@ -636,6 +636,11 @@ console.log(testSize(7));
 
 
 // Golf Code. 
+// Selecting from Many Options with Switch Statements
+//Your function will be passed par and strokes arguments. 
+// Return the correct string according to this table which lists the strokes 
+// in order of priority; top (highest) to bottom (lowest):
+
 const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 
 
@@ -659,6 +664,11 @@ function golfScore(par, strokes) {
 
 console.log(golfScore(5, 4));
 
+
+// Selecting from Many Options with Switch Statements
+//Your function will be passed par and strokes arguments. 
+// Return the correct string according to this table which lists the strokes 
+// in order of priority; top (highest) to bottom (lowest):
 
 
 
