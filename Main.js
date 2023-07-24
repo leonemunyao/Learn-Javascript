@@ -800,9 +800,58 @@ function cc(card) {
 
 console.log(cc(2), cc(3), cc(7), cc('K'), cc('A'));
 
+// Build JavaScript Objects . Data in objects in Javascript is accessed through properties
+// Objects present data in a structured way 
+
+const cat = {
+  "name": "Leon",
+  "legs": 4,
+  "tails": 0,
+  "enemies": ["Memes", "Poverty"]
+};
 
 
+// Accessing Object Properties with Dot Notation
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
 
+const hatValue = testObj.hat;      
+const shirtValue = testObj.shirt;  
+
+// Accessing Object Properties with Bracket Notation
+const testObj1 = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+const entreeValue = testObj1["an entree"];   
+const drinkValue = testObj1["the drink"];    
+
+
+// Accessing Object Properties with Variables
+const testObj2 = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+const playerNumber = 16;
+const player = testObj2[playerNumber];
+
+
+// Updating Object Properties
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog["name"] = "Happy Coder" // ||  myDog.name = "Happy Camper"
 
 
 
