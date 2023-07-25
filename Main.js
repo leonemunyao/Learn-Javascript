@@ -853,6 +853,55 @@ const myDog = {
 
 myDog["name"] = "Happy Coder" // ||  myDog.name = "Happy Camper"
 
+// Add New Properties to a JavaScript Object
+// Here's how we would add a bark property to ourDog:
+
+ourDog.bark = "bow-wow";
+
+or
+
+ourDog["bark"] = "bow-wow";
+
+
+// Add bark property to myDog and set it to a dog sound in the code below
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.bark = "woooo!";
+
+// Delete Properties from a JavaScript Object
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"],
+  "bark": "bow-wow"
+};
+
+delete ourDog.legs;
+
+// Using Objects for Lookups. You can use objects to lookup values rather than a switch statement or a if/else chain
+// Exampe
+const article = {
+  "title": "I am Leon Munyao learning Javascript",
+  "link": "https://www.freecodecamp.org/news/a-complete-guide-to-creating-objects-in-javascript-b0e2450655e8/",
+  "author": "Leon Munyao",
+  "language": "JavaScript",
+  "tags": "TECHNOLOGY",
+  "createdAt": "JULY 25, 2023"
+};
+
+const articleAuthor = article["author"];
+const articleLink = article["link"];
+
+const value1 = "title";
+const valueLookup = article[value];
+
+
 
 
 
