@@ -856,22 +856,22 @@ myDog["name"] = "Happy Coder" // ||  myDog.name = "Happy Camper"
 // Add New Properties to a JavaScript Object
 // Here's how we would add a bark property to ourDog:
 
-ourDog.bark = "bow-wow";
+// ourDog.bark = "bow-wow";
 
-or
+// or
 
-ourDog["bark"] = "bow-wow";
+// ourDog["bark"] = "bow-wow";
 
 
 // Add bark property to myDog and set it to a dog sound in the code below
-const myDog = {
+const myDog2 = {
   "name": "Happy Coder",
   "legs": 4,
   "tails": 1,
   "friends": ["freeCodeCamp Campers"]
 };
 
-myDog.bark = "woooo!";
+myDog2.bark = "woooo!";
 
 // Delete Properties from a JavaScript Object
 const ourDog = {
@@ -900,6 +900,63 @@ const articleLink = article["link"];
 
 const value1 = "title";
 const valueLookup = article[value];
+
+
+// Example below is in if/else statement
+
+function phoneticLookup(val) {
+  let result = "";
+
+  // Only change code below this line
+  switch(val) {
+    case "alpha":
+      result = "Adams";
+      break;
+    case "bravo":
+      result = "Boston";
+      break;
+    case "charlie":
+      result = "Chicago";
+      break;
+    case "delta":
+      result = "Denver";
+      break;
+    case "echo":
+      result = "Easy";
+      break;
+    case "foxtrot":
+      result = "Frank";
+  }
+
+  // Only change code above this line
+  return result;
+}
+
+phoneticLookup("charlie");
+
+// The above in using Objects will be 
+
+function phoneticLookup(val) {
+  let result = ""
+
+  let lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  };
+
+  return result = lookup[val];
+
+};
+
+
+console.log(phoneticLookup("charlie"));
+
+
+// Testing Objects for Properties
 
 
 
