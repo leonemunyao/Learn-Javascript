@@ -984,7 +984,67 @@ console.log(checkObj({city: "Seattle"}, "city"));
 console.log(checkObj({city: "Seattle"}, "district")); 
 console.log(checkObj({pet: "kitten", bed: "sleigh"}, "gift"));
 
+// Manipulating Complex Objects.  If you want to store data in flexible data structure a javascript object can
+// handle that ...Example of complex data structure 
 
+const ourMusic = [
+  {
+    "artist": "Anne MArie",
+    "title": "Homewo",                        // This is an array that contains an object inside it.
+    "release_year": 2019,
+    "formats": [ 
+      "CD", 
+      "Cassette", 
+      "LP"
+    ],
+    "gold": true
+  }
+];
+
+
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  },
+  {
+    "artist": "Anne Marie",
+    "title": "Karate",
+    "release_year": 2020,
+    "formats": [
+      "CD",
+      "Video",
+      "MP3"
+    ],
+    "gold": true
+  }
+];
+
+// Accessing Nested Objects. Sub-properties can be accessed by chaining together the dot or bracket notation
+// Example
+
+const ourStorage = {
+  "desk": {
+    "drawer": "stapler"
+  },
+  "cabinet": {
+    "top drawer": { 
+      "folder1": "a file",
+      "folder2": "secrets"
+    },
+    "bottom drawer": "soda"
+  }
+};
+
+console.log(ourStorage.cabinet["top drawer"].folder2);
+console.log(ourStorage.desk.drawer);
 
 
 
