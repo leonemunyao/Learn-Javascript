@@ -1047,10 +1047,69 @@ console.log(ourStorage.cabinet["top drawer"].folder2);
 console.log(ourStorage.desk.drawer);
 
 
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
 
+const gloveBoxContents = myStorage.car.inside["glove box"];
+console.log(gloveBoxContents);
 
+// Example 2
 
+const ourPets = [
+  {
+    animalType: "cat",
+    names: [
+      "Meowzer",
+      "Fluffy",
+      "Kit-Cat"
+    ]
+  },
+  {
+    animalType: "dog",
+    names: [
+      "Spot",
+      "Bowser",
+      "Frankie"
+    ]
+  }
+];
 
+console.log(ourPets[0].names[1]);
+console.log(ourPets[1].names[0]);
+
+// Example 3
+const myPlants = [
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+
+const secondTree = myPlants[1].list[1];
+console.log(secondTree);
+
+// Record Collection
 
 
 
