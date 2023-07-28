@@ -1116,9 +1116,54 @@ console.log(secondTree);
 
 // I should first understand about the function parameters ....parameters act as placeholders for values for example
 
-function updateRecords(records, id, prop, value)
+// function updateRecordss(records, id, prop, value)
 
 // the  RECORD PARAMETERS represents an object literal....here is the object literal
+
+// const recordCollections = {
+//   2548: {
+//     albumTitle: 'Slippery When Wet',
+//     artist: 'Bon Jovi',
+//     tracks: ['Let It Rock', 'You Give Love a Bad Name']
+//   },
+//   2468: {
+//     albumTitle: '1999',
+//     artist: 'Prince',
+//     tracks: ['1999', 'Little Red Corvette']
+//   },
+//   1245: {
+//     artist: 'Robert Palmer',
+//     tracks: []
+//   },
+//   5439: {
+//     albumTitle: 'ABBA Gold'
+//   }
+// };
+
+// the ID PARAMETER represents object nested inside our recordCollection ..one of the ID's is this one below 
+
+// 2468: {
+//   albumTitle: '1999',
+//   artist: 'Prince',
+//   tracks: ['1999', 'Little Red Corvette']
+// },
+
+// the PROP PARAMETER represents the property name or key inside the object...exmple of props are albumTitle, artist and tracks
+
+// the VALUE PARAMETER represents the value in the objects properties like in the albumTitle the value is ABBA Gold
+// Records ,Id ,Prop and Value are four parameters we are going to use
+
+// HOW TO TACKLE THE RULES OF THE CHALLENGE
+
+// The instructions are as follows
+// a) If value is an empty string, delete the given prop property from the album.
+// b) If prop isn't tracks and value isn't an empty string, assign the value to that album's prop.
+// c) If prop is tracks and value isn't an empty string, you need to update the album's tracks array. 
+//    First, if the album does not have a tracks property, assign it an empty array. 
+//    Then add the value as the last item in the album's tracks array.
+
+
+// Setup
 
 const recordCollection = {
   2548: {
@@ -1140,17 +1185,31 @@ const recordCollection = {
   }
 };
 
-// the ID PARAMETER represents object nested inside our recordCollection ..one of the ID's is this one below 
+// Only change code below this line
+function updateRecords(records, id, prop, value) {
 
-// 2468: {
-//   albumTitle: '1999',
-//   artist: 'Prince',
-//   tracks: ['1999', 'Little Red Corvette']
-// },
+if (prop !== 'tracks' && value !== "") {
+    records[id][prop] = value;
+  } 
+  
+  else if (prop === 'tracks' && records[id].hasOwnProperty('tracks') === false) {
+    records[id][prop] = [value];
+  } 
 
-// the PROP PARAMETER represents the property name or key inside the object...exmple of props are albumTitle, artist and tracks
+  else if (prop === "tracks" && value !== "") {
+    records[id][prop].push(value);
+  } 
+  
+  else if (value === "") {
+    delete records[id][prop];
+  }
 
-// the VALUE PARAMETER represents the value in the objects properties like in the albumTitle the value is ABBA Gold
+  return records;
+}
+
+console.log(updateRecords(recordCollection, 5439, 'artist', 'ABBA'));
+
+// Iterate with JavaScript While Loops
 
 
 
