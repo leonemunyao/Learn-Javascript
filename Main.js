@@ -1109,7 +1109,48 @@ const myPlants = [
 const secondTree = myPlants[1].list[1];
 console.log(secondTree);
 
-// Record Collection
+// Record Collection ....lets assume am creating a function that aids in maintenance of of musical albulm collection
+// The collection is organized as an object that contains multiple albums which are also objects.   e ach album is represented 
+// in the collection with unique ID as property name.   Within each album object there are various properties describing information 
+// about the album
+
+// I should first understand about the function parameters ....parameters act as placeholders for values for example
+
+function updateRecords(records, id, prop, value)
+
+// the  RECORD PARAMETERS represents an object literal....here is the object literal
+
+const recordCollection = {
+  2548: {
+    albumTitle: 'Slippery When Wet',
+    artist: 'Bon Jovi',
+    tracks: ['Let It Rock', 'You Give Love a Bad Name']
+  },
+  2468: {
+    albumTitle: '1999',
+    artist: 'Prince',
+    tracks: ['1999', 'Little Red Corvette']
+  },
+  1245: {
+    artist: 'Robert Palmer',
+    tracks: []
+  },
+  5439: {
+    albumTitle: 'ABBA Gold'
+  }
+};
+
+// the ID PARAMETER represents object nested inside our recordCollection ..one of the ID's is this one below 
+
+// 2468: {
+//   albumTitle: '1999',
+//   artist: 'Prince',
+//   tracks: ['1999', 'Little Red Corvette']
+// },
+
+// the PROP PARAMETER represents the property name or key inside the object...exmple of props are albumTitle, artist and tracks
+
+// the VALUE PARAMETER represents the value in the objects properties like in the albumTitle the value is ABBA Gold
 
 
 
