@@ -1209,7 +1209,18 @@ if (prop !== 'tracks' && value !== "") {
 
 console.log(updateRecords(recordCollection, 5439, 'artist', 'ABBA'));
 
-// Iterate with JavaScript While Loops
+// Iterate with JavaScript While Loops....You can use the same code multiple times by using loops
+// The firts type of looops is called while loop because it runs while a specified condition is true and stops 
+// when that condition is no longer true 
+
+const ourArray6 = [];
+let i = 0;
+
+while (i < 5) {
+  ourArray.push(i);
+  i++;
+}
+
 
 
 
