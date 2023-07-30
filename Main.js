@@ -1222,6 +1222,18 @@ while (i < 5) {
 }
 
 
+let myArray7 = [];
+
+let v = 5;
+while(v >= 0) {
+  myArray.push(v);
+  v--;
+}
+
+
+
+
+
 
 
 
