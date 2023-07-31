@@ -1230,8 +1230,46 @@ while(v >= 0) {
   v--;
 }
 
+// The most common type of javasccript loop is for loop because it runs for a specific number of times .......
+// let take a look "for(a; b; c;)" where a is the initializing statement, b is the condition statement  and c is the final
+// expression
+// The initialization statement is executed once before the loop starts. If the conditional statement is false the loop 
+// stops executing 
+
+const ourArray8 = [];
+
+for (let i = 0; i < 5; i++) {
+  ourArray8.push(i);
+}
+
+console.log(ourArray8);
+
+// Iterate Odd numbers with ....by changing the final expression we can count even numbers only
+const ourArray9 = [];
+
+for (let i = 0; i < 10; i += 2) {
+  ourArray9.push(i);                   // Even Numbers
+}
+
+console.log(ourArray9);
+
+const myArray10 = [];
+
+for(let i = 1; i < 10; i += 2 ){    
+  myArray10.push(i)
+}                                        //Odd Numbers
+
+console.log(myArray10);
 
 
+// Counting backwards using a loop ......
+const myArray11 = [];
+
+for( let i = 9; i > 0; i -= 2){
+  myArray11.push(i);
+}
+ 
+console.log(myArray11);
 
 
 
