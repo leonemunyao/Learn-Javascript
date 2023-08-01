@@ -1272,9 +1272,11 @@ for( let i = 9; i > 0; i -= 2){
 console.log(myArray11);
 
 
+// Iterate through an array with a for loop
+const arr5 = [10, 9, 8, 7, 6];
 
-
-
-
+for (let i = 0; i < arr5.length; i++) {
+   console.log(arr5[i]);
+}
 
 
