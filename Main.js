@@ -1279,4 +1279,5 @@ for (let i = 0; i < arr5.length; i++) {
    console.log(arr5[i]);
 }
 
-
+// The condition for the above is i < arr5.length which stops when i is equal to length ....which iin this case is 
+// i = 4 ......when the loops goes to 5 it terminates because i < arr5.length is false
