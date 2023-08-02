@@ -1279,5 +1279,17 @@ for (let i = 0; i < arr5.length; i++) {
    console.log(arr5[i]);
 }
 
-// The condition for the above is i < arr5.length which stops when i is equal to length ....which iin this case is 
+// The condition for the above is i < arr5.length which stops when i is equal to length ....which in this case is 
 // i = 4 ......when the loops goes to 5 it terminates because i < arr5.length is false
+
+
+// Declare and initialize a variable total to 0 .Use for loop to add the value of the myArr array to total
+
+const  myArr8 =[2, 3, 4, 5, 6];
+let mySum = 0;
+
+for (let i = 0; i < myArr8.length; i++){
+  mySum += myArr8[i];
+}
+
+console.log(mySum);
