@@ -1293,3 +1293,14 @@ for (let i = 0; i < myArr8.length; i++){
 }
 
 console.log(mySum);
+
+// Nesting for loops
+const arr10 = [
+  [1, 2], [3, 4], [5, 6]
+];
+
+for (let i = 0; i < arr10.length; i++) {
+  for (let j = 0; j < arr10[i].length; j++) {
+    console.log(arr10[i][j]);
+  }
+}
