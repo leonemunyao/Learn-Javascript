@@ -1318,3 +1318,15 @@ function multiplyAll(arr) {
 }
 
 console.log(multiplyAll([[1, 2], [3, 4], [5, 6, 7]]));
+
+// do...while loop 
+// Its called a do while because it will first do one pass of the code inside the loop no matter what ..
+// Example 
+
+const ourArray11 = [];
+let i = 0;
+
+do {
+  ourArray11.push(i);
+  i++;
+} while i < 5);
