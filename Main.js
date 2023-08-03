@@ -1324,9 +1324,25 @@ console.log(multiplyAll([[1, 2], [3, 4], [5, 6, 7]]));
 // Example 
 
 const ourArray11 = [];
-let i = 0;
+let m = 0;
 
 do {
-  ourArray11.push(i);
-  i++;
-} while i < 5);
+  ourArray11.push(m);
+  m++;
+} while (m < 5);
+
+console.log(ourArray11);
+
+// Example 2
+
+const myArray12 = [];
+let n = 10;
+
+do{
+  myArray12.push(n);
+  n++;
+}
+
+while (n < 5) 
+
+console.log(myArray12);
